@@ -1,12 +1,12 @@
 # Firebase Todo List MVC
 
-Projeto criado com o intuito de reforçar as bases a aplicar novos conhecimentos.
+Projeto criado com o intuito de reforçar as bases e aplicar novos conhecimentos.
 
-Foi implementada uma lista de atividades na qual é possível adicionar ou editar uma nova atividade, 
+Foi implementada uma lista de atividades na qual é possível adicionar ou editar uma atividade, 
 marcá-la como feita e excluí-la da lista. Tudo isso utilizando o Cloud Firestore 
 (Banco de Dados Reativo fornecido pelo Firebase).  
 
-A base do projeto foi gerada a partir do CLI - Slidy, utilizando MobX e Modular para o gerenciamento de estado e dependências + rotas, respectivamente e toda a sua construção feita no padrão MVC, utilizando o Repository Pattern para oacesso aos dados externos.
+A base do projeto foi gerada a partir do CLI - Slidy, utilizando MobX e Modular para o gerenciamento de estado e dependências + rotas, respectivamente, e toda a sua construção feita no padrão MVC, utilizando o Repository Pattern para acesso aos dados externos.
 
 ### Packages Utilizados
 
