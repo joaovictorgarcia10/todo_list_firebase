@@ -1,0 +1,31 @@
+name: todo_list_firebase
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  cloud_firestore: ^0.13.4+2
+  firebase_core: ^0.4.4+3
+  flutter_mobx: ^1.1.0+2
+  flutter_modular: ^3.0.2+1
+  mobx: ^1.2.1+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: null
+  flutter_modular_test: ^1.0.0
+  mobx_codegen: ^1.1.2
+
+flutter:
+  uses-material-design: true
+
+scripts:
+  mobx: flutter pub run build_runner watch --delete-conflicting-outputs
